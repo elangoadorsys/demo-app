@@ -1,3 +1,7 @@
+# Execute Docker
+- docker build -t demo-app .
+- docker run -d --name demo-sprint-react -p 8080:8080 demo-app 
+
 # react-and-spring-data-rest
 
 The application has a react frontend and a Spring Boot Rest API, packaged as a single module Maven application.
